@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	background:#A50044;
+}
+
+
+.agenda{
+	right: 300px;
+	height: 500px;
+	background: #004D98;
+	text-align: center;
+	margin:0 auto;
+	border-radius: 20px;
+}
+
+
+h1{
+	color:#66BBFF;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+
+img{
+	margin-top:10px;
+}
+
+
+.botao{
+	text-decoration: none;
+	background: #A50044;
+	padding:5px 15px;
+	border-radius:10px;
+	color:#FFF;
+	font-size:1.2em;
+	font-weight:700;
+	border:0;
+	margin: 30px 0px;
+	cursor:pointer;
+}
+
+
+
+.novo{
+	margin:0 auto;
+}
+
+.caixa1,.caixa2{
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border:1px solid #A50044;
+	border-radius: 5px;
+}
+
+.caixa3{
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border:1px solid #A50044;
+	border-radius: 5px;
+}
+#tabela{
+	border: 1px solid #DDD;
+	padding: 10px;
+	text-align: justify;
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+
+#tabela th{
+	border:1px solid #DDD;
+	padding: 15px;
+	background: #66bbff;
+	color:#FFF;
+}
+
+
+#tabela td{
+	border:1px solid #DDD;
+	padding: 10px;
+}
+
+
+.botao1{
+	text-decoration: none;
+	background: #A50044;
+	padding:5px 15px;
+	border-radius:10px;
+	color:#FFF;
+	font-size:1.2em;
+	font-weight:700;
+	border:0;
+	margin-bottom: 30px 0px;
+	cursor:pointer;
+}
+
+
